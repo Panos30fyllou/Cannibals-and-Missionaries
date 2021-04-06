@@ -1,0 +1,14 @@
+C:\Users\Panos30fyllou\source\repos\CannibalsMissionaries\CannibalsMissionaries\bin\Debug\CannibalsMissionaries.exe.config
+C:\Users\Panos30fyllou\source\repos\CannibalsMissionaries\CannibalsMissionaries\bin\Debug\CannibalsMissionaries.exe
+C:\Users\Panos30fyllou\source\repos\CannibalsMissionaries\CannibalsMissionaries\bin\Debug\CannibalsMissionaries.pdb
+C:\Users\Panos30fyllou\source\repos\CannibalsMissionaries\CannibalsMissionaries\obj\Debug\CannibalsMissionaries.csprojAssemblyReference.cache
+C:\Users\Panos30fyllou\source\repos\CannibalsMissionaries\CannibalsMissionaries\obj\Debug\CannibalsMissionaries.csproj.CoreCompileInputs.cache
+C:\Users\Panos30fyllou\source\repos\CannibalsMissionaries\CannibalsMissionaries\obj\Debug\CannibalsMissionaries.exe
+C:\Users\Panos30fyllou\source\repos\CannibalsMissionaries\CannibalsMissionaries\obj\Debug\CannibalsMissionaries.pdb
+C:\Users\Panos30fyllou\source\repos\Cannibals-and-Missionaries\CannibalsMissionaries\CannibalsMissionaries\bin\Debug\CannibalsMissionaries.exe.config
+C:\Users\Panos30fyllou\source\repos\Cannibals-and-Missionaries\CannibalsMissionaries\CannibalsMissionaries\bin\Debug\CannibalsMissionaries.exe
+C:\Users\Panos30fyllou\source\repos\Cannibals-and-Missionaries\CannibalsMissionaries\CannibalsMissionaries\bin\Debug\CannibalsMissionaries.pdb
+C:\Users\Panos30fyllou\source\repos\Cannibals-and-Missionaries\CannibalsMissionaries\CannibalsMissionaries\obj\Debug\CannibalsMissionaries.csprojAssemblyReference.cache
+C:\Users\Panos30fyllou\source\repos\Cannibals-and-Missionaries\CannibalsMissionaries\CannibalsMissionaries\obj\Debug\CannibalsMissionaries.csproj.CoreCompileInputs.cache
+C:\Users\Panos30fyllou\source\repos\Cannibals-and-Missionaries\CannibalsMissionaries\CannibalsMissionaries\obj\Debug\CannibalsMissionaries.exe
+C:\Users\Panos30fyllou\source\repos\Cannibals-and-Missionaries\CannibalsMissionaries\CannibalsMissionaries\obj\Debug\CannibalsMissionaries.pdb
