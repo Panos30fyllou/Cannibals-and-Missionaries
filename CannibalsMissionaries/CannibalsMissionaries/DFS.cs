@@ -5,16 +5,33 @@ namespace CannibalsMissionaries
 {
     class DFS
     {
+        //The List 'Search' contains the states that are next in line to be examined.
+        //The List 'Checked' contains the states that have already been examined.
+        //The List 'Microscope' contains the states that lead to the final state.
+        //The List 'ChildrenStates' contains the children states of the state that is being examined.
+
         static List<State> Search = new List<State>();
         static List<State> Checked = new List<State>();
         static List<State> Microscope = new List<State>();
         static List<State> ChildrenStates;
 
+
+        ///         DFS ALGORITHM           ///
+        //The method 'searchUsingDFS' is used to produce and return a List of the valid states that lead to the final state.
+        //First, the initial state is added to the List 'Search', and the List 'Microscope'
+        //Then the program enters a 'while' loop and checks if the last state of the Microscope is the final one.
+        //If it's final, the method exits the loop and returns the List 'Microscope'
+        //With each loop the List 'ChildrenStates' contains the children of the state that is being examined.
+        //Then, the first element of the List 'Search' is removed.
+        //For each of the children in the List 'ChildrenStates', if it already exists in the List 'Checked' or 'Searched', then it is not added to the List 'Search'.
+        //If it doesn't exist, it is added to the beginning of the List 'Search'.
+        //Last the state that is being examined, is added to the List 'Checked' and the first element of the List 'Search' is added to the Microscope.
+        //The method returns the result when the final state is found.
+
         public static List<State> searchUsingDFS(State initialState)
         {
             Search.Add(initialState);
             Microscope.Add(initialState);
-            //ChildrenStates = initialState.getchildren();
             while (true)
             {
 
@@ -24,7 +41,7 @@ namespace CannibalsMissionaries
                 }
 
                 ChildrenStates = new List<State>();
-                ChildrenStates = Microscope[Microscope.Count() - 1].getchildren();
+                ChildrenStates = Microscope[Microscope.Count() - 1].getChildren();
                 Search.RemoveAt(0);
 
                 foreach (State state in ChildrenStates)
@@ -51,7 +68,6 @@ namespace CannibalsMissionaries
 
                     if (!exists)
                     {
-                        //Search.Add(state);
                         Search.Insert(0, state);
                     }
                 }
